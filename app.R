@@ -2,14 +2,12 @@
 
 library(shiny)
 library(knitr)
-library(rmarkdown)
 library(spData)
 library(spdep)
 library(data.table)
 library(RColorBrewer)
 library(stringr)
 library(leaflet)
-library(shiny)
 library(dplyr)
 library(readr)  # to read_csv
 library(knitr)
@@ -17,7 +15,6 @@ library(shiny)
 library(ggplot2)
 library(ggdark)
 library(countrycode)
-library(data.table)
 library(magrittr)
 myfile <- "https://raw.githubusercontent.com/maz2198/panthera/main/urbanization_un.csv?token=AGJPTAZVKHMO4NM4MWXWQ4LANGPB6"
 urban_1 <- read_csv(myfile)
