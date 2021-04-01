@@ -1,7 +1,6 @@
 # marang Mutloatse Panthera Urbanisation dashbaord
 
 library(shiny)
-library(knitr)
 library(spData)
 library(spdep)
 library(data.table)
@@ -10,8 +9,6 @@ library(stringr)
 library(leaflet)
 library(dplyr)
 library(readr)  # to read_csv
-library(knitr)
-library(shiny)
 library(ggplot2)
 library(ggdark)
 library(countrycode)
