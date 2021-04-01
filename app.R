@@ -139,7 +139,7 @@ shinyApp(
                       axis.title = element_blank(),axis.text.x = element_text(face = "bold",size = 12, angle = 45,colour = "#ffffff"),
                       axis.text.y = element_text(face = "bold", size = 12, angle = 45,colour = "#ffffff"),
                       legend.background = element_rect(fill = "transparent"),legend.key = element_rect(fill = "transparent"),
-                      legend.title = element_blank(),,legend.text=element_text(color="#ebecec",face="bold"))+
+                      legend.title = element_blank(),legend.text=element_text(color="#ebecec",face="bold"))+
                 ggtitle("World's Most Populated Cities: Trend and Forecast by City")
         })
         
@@ -187,3 +187,4 @@ shinyApp(
     })
     , options = list(height = 750)
 )  
+
